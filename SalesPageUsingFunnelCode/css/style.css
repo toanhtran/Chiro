@@ -1,0 +1,168 @@
+body{
+     background: url(../images/bg1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-color: #fff;
+    font-family: "droid sans";
+}
+
+.container {
+    padding: 10 auto 20;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(47, 47, 47, 0.352157);
+}
+
+.container-header {
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none !important;
+}
+
+/* noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin */
+.main-headline {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    boarder: 0px;
+    box-shadow: 30px;
+    border-radius: 5px;
+    margin-top: 130px; 
+    padding-bottom: 40px; 
+    padding-top: 40px; 
+    border-color: rgb(65, 71, 76); 
+    outline: none; 
+    background-color: rgba(255, 255, 255, 0.529412);
+}
+
+
+/*container noTopMargin padding40-top padding40-bottom padding40H  bgNoRepeat activeSection_topBorder activeSection_bottomBorder smallContainer radius10 borderSolid cornersTop shadow30 border5px borderLightBottom emptySection activeSection_topBorder0 activeSection_bottomBorder4.66667" id="section-1323210000" data-title="main headline" data-block-color="0074C7" style="margin-top: 130px; padding-bottom: 10px; padding-top: 20px; border-color: rgb(65, 71, 76); outline: none; background-color: rgba(255, 255, 255, 0.529412);" data-trigger="none" data-animate="fade" data-delay="500*/
+
+
+.logo-img {
+    margin-top: 10px; 
+    cursor: pointer; 
+    outline: none; 
+    display: block;" 
+    aria-disabled="false";
+    text-align: center;
+}
+
+.headline {
+    font-family: 'Droid Sans';
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+/*ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize2" style="text-align: center; color: rgb(255, 255, 255);" data-bold="inherit" contenteditable="false*/
+
+.containerInner {
+    padding-left: 50px; 
+    padding-right: 50px; 
+    outline: none; 
+    margin-bottom: 0px;
+}
+
+.panel panel-default {
+    padding-left: 50px; 
+    padding-right: 50px; 
+    outline: none; 
+    margin-bottom: 0px;
+}
+
+.form-group {
+    margin-top: 15px; 
+    outline: none; 
+    cursor: pointer;
+}
+
+.form-input {
+    outline: none !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin-top: 15px; 
+    outline: none; 
+    cursor: pointer;
+    background-color: #fff
+}
+
+.btn btn-success {
+    color: rgb(255, 255, 255);
+    background: rgb(45, 192, 86);
+    font-size: 24px;
+    display: block;
+    text-align: center;
+    width: 100%
+    
+}
+
+.elButtonSubtle {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-radius: 4px
+    font-size: 24px;   
+}
+
+
+/******* MEDIA QUERIES *******/
+
+media (min-width: 320px) and (max-width: 350px) {
+     .login-form{
+     	width: 280px !important;
+     }
+}
+
+@media (min-width: 350px) and (max-width: 500px) {
+     .login-form{
+     	width: 300px !important;
+     }
+     
+}
+
+@media (min-width: 320px) and (max-width: 1023px) {
+     body{
+		background: url(../images/bg1.jpg) no-repeat center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+		background-color: #fff;
+	}
+}
+
+@media only screen and (max-width: 1170px) and (min-width: 770px)
+
+.container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+@media (min-width: 1024px) and (max-width: 1360px) {
+     body{
+		background: url(../images/bg1.jpg) no-repeat center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+		background-color: #fff;
+	}
+}
+
+@media (min-width: 1361px) and (max-width: 1960px) {
+     body{
+		background: url(../images/bg1.jpg) no-repeat center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+		background-color: #fff;
+	}
+}
