@@ -9,16 +9,17 @@ body{
 }
 
 .container {
-    padding: 10 auto 20;
+    padding: 40 auto 20;
     border-radius: 10px;
     outline: none;
-    background-color: rgba(47, 47, 47, 0.352157);
+    background-color: none;
 }
 
 .container-header {
     padding-left: 20px;
     padding-right: 20px;
     border: none !important;
+    
 }
 
 /* noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin */
@@ -34,6 +35,12 @@ body{
     border-color: rgb(65, 71, 76); 
     outline: none; 
     background-color: rgba(255, 255, 255, 0.529412);
+    color: #fff;
+}
+
+.subheading {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.47);
 }
 
 
@@ -47,6 +54,7 @@ body{
     display: block;" 
     aria-disabled="false";
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .headline {
@@ -66,6 +74,11 @@ body{
     padding-right: 50px; 
     outline: none; 
     margin-bottom: 0px;
+    padding-top: 10px; 
+    padding-bottom: 20px; 
+    outline: none; 
+    background-color: rgba(47, 47, 47, 0.792157);
+    
 }
 
 .panel panel-default {
@@ -99,16 +112,30 @@ body{
     display: block;
     text-align: center;
     width: 100%
+        
     
 }
+
 
 .elButtonSubtle {
     border: 1px solid rgba(0, 0, 0, 0.1);
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
-    border-radius: 4px
+    border-radius: 4px;
     font-size: 24px;   
+}
+
+span {
+    display: block;
+    opacity: 0.7;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.89);
 }
 
 
