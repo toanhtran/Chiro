@@ -191,8 +191,6 @@ media (min-width: 320px) and (max-width: 350px) {
 
 }
 
-
-
 @media (min-width: 320px) and (max-width: 770px) {
     
      body{
@@ -234,17 +232,38 @@ media (min-width: 320px) and (max-width: 350px) {
         padding-right: 15px;
         padding-left: 15px;
     }
+    
+    .btn btn-block {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+
+@media only screen and (max-width: 770px) and (min-width: 812px){
+
+   .col-lg-offset-3 {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .col-lg-6 {
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .btn btn-block {
+        width: 3em;
+        display: inline-block;
+    }
+    
+    ..main-headline, .containerInner {
+        width: 100% !important;    
+    }
+    
 }
 
 /*
-@media only screen and (max-width: 1170px) and (min-width: 770px){
-
-.containerInner {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-}
-}
-
 @media (min-width: 1024px) and (max-width: 1360px) {
      body{
 		background: url(../images/bg1.jpg) no-repeat center center fixed;

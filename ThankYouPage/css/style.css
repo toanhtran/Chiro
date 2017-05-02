@@ -47,7 +47,7 @@ body{
 
 .headline {
     font-family: 'Droid Sans';
-    font-size: 32px;
+    font-size: 48px;
     margin: 0;
     line-height: 1.25em;
     font-weight: 600;
@@ -61,7 +61,7 @@ body{
     margin-top: 15px;
     margin-bottom: 30px;
     font-size: 18px;
-    line-height: 1.50em;
+    line-height: 1.5em;
     color: #454545;
 }
 
@@ -187,7 +187,7 @@ li {
     color: rgba(0,0,0,0.4);
     padding: 0px 10px;
     margin-top: -10px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     display: block;
     text-transform: uppercase;
 }
@@ -208,61 +208,23 @@ li {
     .container {
         width: 100%;
     }
-}
-/*
-media (min-width: 320px) and (max-width: 350px) {
-     .login-form{
-     	width: 280px !important;
-     }
+    
+    .headline {
+        font-size: 32px;
+        margin-bottom: 0px;
+    }
+    
+    .red {
+        margin-top: 0px;
+    }
 }
 
-@media (min-width: 350px) and (max-width: 500px) {
-     .login-form{
-     	width: 300px !important;
-     }
+@media (min-width: 320px) and (max-width: 400px) {
      
+    ul {
+        margin-left: -1.35em;
+    }
+    .directions {
+        margin-top: -10px;
 }
-
-@media (min-width: 320px) and (max-width: 1023px) {
-     body{
-		background: url(../images/bg1.jpg) no-repeat center center fixed; 
-	  	-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-	  	background-size: cover;
-		background-color: #fff;
-	}
 }
-
-@media only screen and (max-width: 1170px) and (min-width: 770px)
-
-.container {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-    width: 960px;
-}
-
-@media (min-width: 1024px) and (max-width: 1360px) {
-     body{
-		background: url(../images/bg1.jpg) no-repeat center center fixed; 
-	  	-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-	  	background-size: cover;
-		background-color: #fff;
-	}
-}
-
-@media (min-width: 1361px) and (max-width: 1960px) {
-     body{
-		background: url(../images/bg1.jpg) no-repeat center center fixed; 
-	  	-webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover;
-	  	background-size: cover;
-		background-color: #fff;
-	}
-}
-
-*
-/
