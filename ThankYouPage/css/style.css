@@ -1,19 +1,26 @@
 body{
     background: rgb(122, 185, 66);
+    overflow: initial;
     font-family: 'Open Sans', sans-serif !important;
     line-height: 1.5em;
-    font-size: 18px;
+    font-size: 17px;
+    color: #000;
 }
 .main    {
      background-color: rgb(122, 185, 66);
-    
+     overflow: initial;
 }
 
 .container {
-    padding: 10 auto 20;
-    border-radius: 10px;
-    outline: none;
-  
+    margin-top: 80px;
+    border-color: rgb(158, 167, 178);
+    border-width: 5px;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    width: 960px;  
 }
 
 .row {
@@ -29,7 +36,8 @@ body{
 }
 
 .logo-img {
-    margin-top: 10px; 
+    margin-top: 3.1em; 
+    margin-bottom: 1em;
     cursor: pointer; 
     outline: none; 
     display: block;" 
@@ -39,9 +47,10 @@ body{
 
 .headline {
     font-family: 'Droid Sans';
-    font-size: 48px;
-    line-height: 1.5em;
-    font-weight: 700;
+    font-size: 32px;
+    margin: 0;
+    line-height: 1.25em;
+    font-weight: 600;
     text-align: center;
     color: rgb(90, 101, 115);
     
@@ -49,7 +58,11 @@ body{
 
 .subheadline {
     text-align: center;
+    margin-top: 15px;
     margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 1.50em;
+    color: #454545;
 }
 
 hr   {
@@ -65,11 +78,26 @@ h3 {
 
 .how {
     margin-left: 15px;
+    margin-bottom: 1.25em;
+    font-size: 18px;
+}
+
+ul {
+    margin-left: 1.5em;
 }
 
 li {
-    padding: 10px 10px;
+    padding: 0px 10px 10px;
     padding-left: 20px;
+    margin-top: 1.25em;
+    margin-left: -7%;
+    color: #2F2F2F;
+}
+
+.directions {
+    margin-top: -10px;
+    padding-left: 2.2em;
+    
 }
 
 p {
@@ -89,34 +117,50 @@ li {
 
 .red {
     color: rgb(228, 10, 10);
+    margin-top: 2.5em;
 }
 
 .footer {
     text-align: center;
     color: rgba(64, 64, 64, 0.709804);
     font-size: 16px;
-    margin: 20;
+    margin: .65em;
     padding-top: 40px;
     padding-bottom: 40px;
     outline: none;
+}
 
 /*
 ********** Countdown Clock **********
 */
-.timer {
-  color: #396;
-  font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
+
+.timer{
+	text-align: center;
+	background: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #C41229;
+    font-size: 14px;
 }
 
-#clockdiv {
+.timer {
+    margin-top: 1em;
+    margin-bottom: .82em;
+    text-align: center;
+    background: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #C41229;
+    font-size: 24px;
+}
+
+#clockdiv{
 	font-family: sans-serif;
-	color: red;
+	color: #C41229;
 	display: inline-block;
 	font-weight: 100;
 	text-align: center;
-	font-size: 45px;
+	font-size: 26px;
 }
 
 #clockdiv > div{
@@ -131,22 +175,41 @@ li {
 	border-radius: 3px;
 	background: #fff;
 	display: inline-block;
-  display: inline-block;
-  text-align: center;
-  font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
 }
 
-.smalltext{
+.smalltext {
 	padding-top: 5px;
-	font-size: 16px;
-  color: rgba(0,0,0,0.4);
-  padding: 0px 10px;
-  margin-bottom: 5px;
-  display: block;
-  text-transform: uppercase;
+	font-size: 10px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
+    padding: 0px 10px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    display: block;
+    text-transform: uppercase;
 }
-/******* MEDIA QUERIES *******/
 
+/*
+********** Media Queries **********
+*/
+
+@media (min-width: 980px) and (max-width: 1900) {
+    .container {
+        width: 90%;
+        overflow: hidden;
+    }
+    
+}
+
+@media (min-width: 350px) and (max-width: 769px) {
+    .container {
+        width: 100%;
+    }
+}
+/*
 media (min-width: 320px) and (max-width: 350px) {
      .login-form{
      	width: 280px !important;
@@ -176,6 +239,7 @@ media (min-width: 320px) and (max-width: 350px) {
 .container {
     padding-left: 20px !important;
     padding-right: 20px !important;
+    width: 960px;
 }
 
 @media (min-width: 1024px) and (max-width: 1360px) {
@@ -199,3 +263,6 @@ media (min-width: 320px) and (max-width: 350px) {
 		background-color: #fff;
 	}
 }
+
+*
+/
