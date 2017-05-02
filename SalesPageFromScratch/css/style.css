@@ -24,6 +24,7 @@ body{
 }*/
 
 /* noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin */
+
 .main-headline {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -49,9 +50,6 @@ body{
 }
 
 
-/*container noTopMargin padding40-top padding40-bottom padding40H  bgNoRepeat activeSection_topBorder activeSection_bottomBorder smallContainer radius10 borderSolid cornersTop shadow30 border5px borderLightBottom emptySection activeSection_topBorder0 activeSection_bottomBorder4.66667" id="section-1323210000" data-title="main headline" data-block-color="0074C7" style="margin-top: 130px; padding-bottom: 10px; padding-top: 20px; border-color: rgb(65, 71, 76); outline: none; background-color: rgba(255, 255, 255, 0.529412);" data-trigger="none" data-animate="fade" data-delay="500*/
-
-
 .logo-img {
     margin-top: 10px;
     cursor: pointer;
@@ -70,8 +68,6 @@ body{
     margin-top: 30px;
 
 }
-
-/*ne elHeadline lh3 elMargin0 elBGStyle0 hsTextShadow0 hsSize2" style="text-align: center; color: rgb(255, 255, 255);" data-bold="inherit" contenteditable="false*/
 
 .containerInner {
     padding-left: 6em;
@@ -195,8 +191,27 @@ media (min-width: 320px) and (max-width: 350px) {
 
 }
 
-@media (min-width: 320px) and (max-width: 1023px) {
+
+
+@media (min-width: 320px) and (max-width: 770px) {
+    
      body{
+		background: none;
+    }
+    .main-headline {
+        width: 100% !important;
+    }
+    .panel .panel-default {
+        width: 100% !important;
+        
+    }
+     .containerInner {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1200px) {
+    body {
 		background: url(../images/bg1.jpg) no-repeat center center fixed;
 	  	-webkit-background-size: cover;
 	  	-moz-background-size: cover;
@@ -204,13 +219,21 @@ media (min-width: 320px) and (max-width: 350px) {
 	  	background-size: cover;
 		background-color: #fff;
 	}
-}
-
-@media only screen and (max-width: 1170px) and (min-width: 770px)
-
-.container {
+    .containerInner {
     padding-left: 20px !important;
     padding-right: 20px !important;
+}
+    
+    
+}
+
+
+@media only screen and (max-width: 1170px) and (min-width: 770px){
+
+.containerInner {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
 }
 
 @media (min-width: 1024px) and (max-width: 1360px) {
