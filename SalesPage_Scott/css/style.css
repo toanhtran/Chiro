@@ -1,0 +1,41 @@
+body {
+  background-image: url(https://images.clickfunnels.com/7f/6f4a3015c511e78b2e1723d7d2f737/Untitled-design-_5_.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: initial;
+  background-color: rgb(255, 255, 255);
+}
+
+html {
+  color: #2f2f2f;
+}
+
+.wrapper {
+  min-width: 320px;
+}
+
+.row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+.header {
+  margin-top: 130px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  border-color: rgb(65, 71, 76);
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.529412);
+}
+
+/*.border {
+  border-width: 5px;
+  border-style: solid;
+  background-position-y: -5px;
+}*/
