@@ -15,14 +15,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700%7COswald:400,700%7CDroid+Sans:400,700%7CRoboto:400,700%7CLato:400,700%7CPT+Sans:400,700%7CSource+Sans+Pro:400,700%7CNoto+Sans:400,700%7CPT+Sans:400,700%7CUbuntu:400,700%7CBitter:400,700%7CPT+Serif:400,700%7CRokkitt:400,700%7CDroid+Serif:400,700%7CRaleway:400,700%7CInconsolata:400,700" rel="stylesheet" type="text/css">
-
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
     <!-- CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css" rel="stylesheet">
-    <link rel="stylesheet" media="screen" href="chiro.css">
+    <!-- <link rel="stylesheet" media="screen" href="css/chiro.css"> -->
     <link rel="stylesheet" media="screen" href="css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -32,55 +32,48 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 </head>
-
 <body>
-    <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3">
         <div class="main-headline">
+          <div class="logo-img">
+            <img src="images/chiroLogo.png" width="100">
+          </div><!-- /.logo-img -->
+        </div><!-- /.main-headline -->
 
-            <div class="logo-img"><img src="images/chiroLogo.png" width="100">
-               <div class="row">
-               <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3
-                <div class="panel panel-default containerInner">
-                    <div class="login-form">
-                        <div class="form">
-                            <h1 class="main-heading">Be ready to Crush your next WOD after a <u>Free 15 Minute Massage</u> from Elysium Wellness</h1>
-                            <p class="subheading">Enter your info Below and Get Your <br> Free 15 Minute Massage at Elysium Wellness Now.</p>
-                            <form>
-                                <div class="form-group">
-                                    <input class="form-control" id="name" placeholder="Your Name" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="email" placeholder="Your Email" type="text">
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="phone" placeholder="Your Phone #" type="text">
-                                </div>
+          <div class="panel panel-default containerInner">
 
-                                <button type="submit" class="btn btn-success elButtonSubtle">Get Your Free 15 Minute Session Now
-                                    <br/> <span>(Limit first 10 Appointments)</span>
-                                </button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                </div>
-            </div>
-            <div class="copyright">
-                <b>Copyright 201  - Elysium Wellness </b>
-                <br>
-                <b>Privacy Policy</b>
-            </div>
-        </div>
+              <div class="login-form">
+                  <div class="form">
+                      <h1 class="headline">Be ready to Crush your next WOD after a <u>Free 15 Minute Massage</u> from Elysium Wellness</h1>
+                      <p class="subheading">Enter your info Below and Get Your <br> Free 15 Minute Massage at Elysium Wellness Now.</p>
+                      <form>
+                          <div class="form-group">
+                              <input class="form-control elInput elInputName" id="name" placeholder="Your Name" type="text">
+                          </div>
+                          <div class="form-group">
+                              <input class="form-control elInput elInputEmail" id="email" placeholder="Your Email" type="text">
+                          </div>
+                          <div class="form-group">
+                              <input class="form-control elInput elInputPhone" id="phone" placeholder="Your Phone #" type="text">
+                          </div>
 
-    </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
-    </script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+                          <button type="submit" class="btn btn-block btn-success elButtonSubtle">Get Your Free 15 Minute Session Now
+                              <br/> <span>(Limit first 10 Appointments)</span>
+                          </button>
+                      </form>
+                  </div>
+              </div>
+          </div>
 
-    <script src="js/bootstrap.min.js">
-    </script>
+
+          <div class="copyright">
+              <b>Copyright 2017  - Elysium Wellness </b>
+              <br>
+              <a href="#">Privacy Policy</a>
+          </div>
+        </div><!-- /.col-md-6 .col-md-offset-3 -->
+      </div><!-- /.row -->
+
 </body>
-
 </html>
