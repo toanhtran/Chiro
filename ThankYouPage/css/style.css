@@ -77,7 +77,7 @@ h3 {
 }
 
 .how {
-    margin-left: 15px;
+    margin-left: 1.5em;
     margin-bottom: 1.25em;
     font-size: 18px;
 }
@@ -213,16 +213,22 @@ li {
         font-size: 32px;
         margin-bottom: 0px;
     }
+    .subheadline {
+        margin-left: -1em;
+    }
     
     .red {
         margin-top: 0px;
+    }
+    .how {
+        margin-left: -.3em;
     }
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
      
     ul {
-        margin-left: -1.35em;
+        margin-left: -2.35em;
     }
     .directions {
         margin-top: -10px;
