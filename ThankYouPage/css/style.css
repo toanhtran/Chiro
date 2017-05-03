@@ -43,7 +43,7 @@ body {
     text-align: center;
 }
 .headline {
-    font-family: 'Droid Sans';
+    font-family: 'Open Sans', sans-serif !important;
     font-size: 48px;
     margin: 0;
     line-height: 1.25em;
@@ -130,13 +130,13 @@ li {
     margin-bottom: .82em;
     text-align: center;
     background: #fff;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 100;
     color: #C41229;
     font-size: 24px;
 }
 #clockdiv {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     color: #C41229;
     display: inline-block;
     font-weight: 100;
