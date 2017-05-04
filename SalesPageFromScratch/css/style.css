@@ -406,7 +406,6 @@ span {
         }
 }
 
-
 @media (min-width: 770px) and (max-width: 1200px) {
     body {
 		background: url(../images/bg1.jpg) no-repeat center center fixed;
@@ -429,9 +428,19 @@ span {
         min-height: 1px;
         padding-right: 15px;
         padding-left: 15px;
-    }    
-}
+    }
     
+    .form-group {
+        padding-right: 4em;
+        padding-left: 4em;
+    }
+    .btn, .btn-block, .btn-success {
+        margin-left: 3em;
+        width: 79%;
+        
+    }
+}
+
  
 @media (min-width: 771px) and (max-width: 990px){
     .main-header, .containerInner {
