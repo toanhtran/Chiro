@@ -97,11 +97,14 @@ body {
     margin-top: 15px;
     outline: none;
     cursor: pointer;
+    padding-right: .5em;
+    padding-left: .5em;
 }
 input {
     height: 48px;
 }
 .form-input {
+    
     outline: none !important;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -110,6 +113,7 @@ input {
     outline: none;
     cursor: pointer;
     background-color: #fff;
+    color: #575555;
 }
 .form-control {
     padding: 12px 40px 15px 18px;
@@ -294,6 +298,7 @@ span {
 }
 input {
   height: 48px;
+  color: #757575;
 }
 
 .form-input {
@@ -305,6 +310,7 @@ input {
     outline: none;
     cursor: pointer;
     background-color: #fff;
+    color: #757575;
 
 }
 
@@ -317,6 +323,7 @@ input {
 .elInput {
   background-repeat: no-repeat;
   background-position: 97%;
+  color: #757575;
 }
 
 .elInputName {
