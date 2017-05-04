@@ -1,10 +1,10 @@
 body {
     background: rgb(122, 185, 66);
     overflow: initial;
-    font-family: 'Open Sans', sans-serif !important;
     line-height: 1.5em;
     font-size: 18px;
     color: #000;
+    font-family: 'Open Sans', sans-serif; 
 }
 .main {
     background-color: rgb(122, 185, 66);
@@ -20,6 +20,7 @@ body {
     position: relative;
     top: 0px;
     width: 960px;
+    padding: 3em;
 }
 .row {
     padding-top: 40px;
@@ -33,28 +34,27 @@ body {
     top: 0px;
 }
 .logo-img {
-    margin-top: 3.1em;
+    margin-top: 1em;
     margin-bottom: 1em;
     cursor: pointer;
     outline: none;
     display: block;
-    " 
- aria-disabled="false";
+    aria-disabled="false";
     text-align: center;
 }
 .headline {
-    font-family: 'Open Sans', sans-serif !important;
     font-size: 48px;
-    margin: 0;
+    margin: 0px;
     line-height: 1.25em;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     color: rgb(90, 101, 115);
 }
 .subheadline {
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 5px;
     font-size: 18px;
     line-height: 1.5em;
     color: #454545;
@@ -69,22 +69,26 @@ h3 {
     text-align:
 }
 .how {
-    margin-left: 1.5em;
+    margin-left: 2em;
     margin-bottom: 1.25em;
-    font-size: 18px;
+    font-size: 19px;
 }
 ul {
-    margin-left: 1.5em;
+    margin-left: 1.80em;
+    padding: 0px;
+    list-style: none;
+    line-height: 1.5em;
 }
 li {
     padding: 0px 10px 10px;
-    padding-left: 20px;
+    padding-left: 2em;
     margin-top: 1.25em;
-    margin-left: -7%;
+    margin-left: -4%;
     color: #2F2F2F;
 }
 .directions {
     margin-top: -10px;
+    margin-left: -2%;
     padding-left: 2.2em;
 }
 p {
@@ -93,13 +97,7 @@ p {
     color: #282828;
     text-align: center;
 }
-ul {
-    list-style: none;
-    line-height: 1.5em;
-}
-li {
-    margin-top: 0px;
-}
+
 .red {
     color: rgb(228, 10, 10);
     margin-top: 2.5em;
@@ -120,7 +118,7 @@ li {
 .timer {
     text-align: center;
     background: #fff;
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
     font-weight: 100;
     color: #C41229;
     font-size: 14px;
@@ -130,18 +128,16 @@ li {
     margin-bottom: .82em;
     text-align: center;
     background: #fff;
-    font-family: 'Open Sans', sans-serif !important;
     font-weight: 100;
     color: #C41229;
     font-size: 24px;
 }
 #clockdiv {
-    font-family: 'Open Sans', sans-serif !important;
     color: #C41229;
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 26px;
+    font-size: 27px;
 }
 #clockdiv > div {
     padding: 10px;
@@ -153,7 +149,6 @@ li {
     padding: 15px;
     border-radius: 3px;
     background: #fff;
-    display: inline-block;
     display: inline-block;
     text-align: center;
     font-weight: bold;
@@ -188,20 +183,48 @@ li {
         margin-bottom: 0px;
     }
     .subheadline {
+        padding: 0px;
+    }
+    
+    ul {
         margin-left: -1em;
     }
     .red {
         margin-top: 0px;
     }
     .how {
-        margin-left: -.3em;
+        margin-left: -.5em;
     }
 }
-@media (min-width: 320px) and (max-width: 400px) {
+@media (min-width: 320px) and (max-width: 769px) {
+    .subheadline {
+        margin-top: 5px;
+        margin-left: -3em;
+        margin-right: -3em;
+    }
+    
+    .how {
+        margin-left: -2em;
+        margin-right: -3em;
+        padding: -5px;
+        font-size: 18px;
+    }
+    
     ul {
-        margin-left: -2.35em;
+        margin-left: -3.35em;
+        font-size: 17px;
     }
     .directions {
         margin-top: -10px;
+        margin-left: .2em;
+        padding-right: 0px;
+    }
+    
+    .red {
+        margin-left: -.72em;
+    }
+    
+    .timer {
+        margin-left: -1em;
     }
 }
