@@ -20,7 +20,10 @@ body {
     position: relative;
     top: 0px;
     width: 960px;
-    padding: 3em;
+    padding-right: 3em;
+    padding-left: 3em;
+    padding-bottom: 0px;
+    padding-top: 2.75em;
 }
 .row {
     padding-top: 40px;
@@ -197,13 +200,27 @@ p {
     }
 }
 @media (min-width: 320px) and (max-width: 769px) {
+    
+    .logo-img {
+        margin-top: 0;
+        margin-bottom: 1em;
+    }
+    
     .subheadline {
         margin-top: 5px;
         margin-left: -3em;
         margin-right: -3em;
     }
     
+    hr {
+        width: 120%;
+        padding: 0px;
+        margin-right: 5px;
+        margin-left: -25px;
+        margin-bottom: 2em;
+    }
     .how {
+
         margin-left: -2em;
         margin-right: -3em;
         padding: -5px;
@@ -226,5 +243,6 @@ p {
     
     .timer {
         margin-left: -1em;
+        margin-bottom: 0px;
     }
 }
