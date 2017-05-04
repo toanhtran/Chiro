@@ -474,8 +474,6 @@ span {
         width: 79%;
         
     }
-    
-     
 }
 
 @media (min-width: 320px) and (max-width: 400px) {
@@ -498,8 +496,8 @@ span {
 
 @media (min-width: 1205px) and (max-width: 1700px) {
     .main-header, .containerInner {
-        width: 95%;
-        margin-left: 2%;
+        width: 75%;
+        margin-left: 13%;
     }
     
     .form-group {
