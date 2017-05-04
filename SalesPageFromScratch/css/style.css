@@ -358,7 +358,7 @@ span {
     display: block;
     opacity: 0.7;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .copyright {
@@ -435,9 +435,20 @@ span {
  
 @media (min-width: 771px) and (max-width: 990px){
     .main-header, .containerInner {
-        width: 60%;
-        margin-left: 25%;
+        width: 67%;
+        margin-left: 18%;
     }
+    
+    .form-group {
+        padding-right: 4em;
+        padding-left: 4em;
+    }
+    .btn, .btn-block, .btn-success {
+        margin-left: 3em;
+        width: 79%;
+        
+    }
+    
      
 }
     
