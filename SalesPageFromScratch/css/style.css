@@ -262,6 +262,8 @@ span {
     color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 30px;
+    padding-right: 1em;
+    padding-left: 1em;
 
 }
 
@@ -310,8 +312,12 @@ input {
     outline: none;
     cursor: pointer;
     background-color: #fff;
-    color: #757575;
+    color:#545454;
+}
 
+.form-control::-moz-placeholder {
+    color:#545454;;
+    opacity: 1
 }
 
 .form-control {
@@ -323,7 +329,7 @@ input {
 .elInput {
   background-repeat: no-repeat;
   background-position: 97%;
-  color: #757575;
+  color: #545454;
 }
 
 .elInputName {
@@ -378,12 +384,11 @@ span {
 
     @media (min-width: 320px) and (max-width: 770px) {
         
-
+      
   .wrapper {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1em;
-    padding-right: 1em;
+    
   }
     body {
         max-width: 100%;
@@ -395,14 +400,24 @@ span {
 		background
         }
         
-    .containerInner {
-        width: 100% !important; 
-        padding-left: 0.40em !important;
-        padding-right: 0.40em !important;
+    .main-headline, .containerInner{
+        width: 100% !important;
+        /*
+        margin-left: -1em;
+        margin-right: -1em;
+        */
+        
     }
+        .form-group {
+            padding-right: 1.5em;
+            padding-left: 1.5em;
+    
+        }
      
         .btn, .btn-block, .btn-success {
-            padding: 1.75em;
+            margin-left: 1.2em;
+            padding: 1em;
+            width: 94%;
         }
 }
 
@@ -444,8 +459,8 @@ span {
  
 @media (min-width: 771px) and (max-width: 990px){
     .main-header, .containerInner {
-        width: 67%;
-        margin-left: 18%;
+        width: 70%;
+        margin-left: 15%;
     }
     
     .form-group {
@@ -460,6 +475,30 @@ span {
     
      
 }
+
+@media (min-width: 320px) and (max-width: 400px) {
+     .main-header, .containerInner {
+        width: 100% !important; 
+         margin-right:.5em;
+         
+    }
+        .form-group {
+            padding-right: .5em;
+            padding-left: .5em;
+        }
+     
+        .btn, .btn-block, .btn-success {
+            margin-left: .5em;
+            padding: 1em;
+            width: 96%;
+        }
+}
+
+@media (min-width: 1170px) and (max-width: 1500px)
+    
+   
+    
+    
     
     
 
